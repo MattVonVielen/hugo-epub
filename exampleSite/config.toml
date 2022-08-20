@@ -2,7 +2,6 @@ baseURL = ""
 DefaultContentLanguage = "de"
 languageCode = "de-de"
 title = "Ebook-Generator"
-theme = "epub"
 author = "Erhard Maria Klein"
 copyright = "Copyright © 2020 Erhard Maria Klein, https://weitblick.org"
 
@@ -78,3 +77,8 @@ disablePathToLower = true
   publisher = "Weitblick Internetwerkstatt"
   audience = "teenagers, adults"
   subject = ['HUGO', 'Epub', 'Ebook'] # (optional)
+
+[module]
+replacements = 'github.com/MattVonVielen/hugo-epub -> ../..'
+[[module.imports]]
+path = 'github.com/MattVonVielen/hugo-epub'
