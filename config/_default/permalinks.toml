@@ -1,0 +1,3 @@
+# add your section name(s) here. Default is "blog"
+blog = "/OEBPS/chapter/:filename"
+"/" = "/OEBPS/:filename"

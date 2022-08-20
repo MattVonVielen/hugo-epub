@@ -1,0 +1,18 @@
+[XHTML]
+mediaType = "application/xhtml+xml"
+isHTML = true
+permalinkable = true
+
+[OPF]
+mediaType = "application/opf+xml"
+isHTML = true
+permalinkable = true
+path = "OEBPS"
+baseName = "content"
+
+[NCX]
+mediaType = "application/x-dtbncx+xml"
+isHTML = true
+permalinkable = true
+path = "OEBPS"
+baseName = "toc"

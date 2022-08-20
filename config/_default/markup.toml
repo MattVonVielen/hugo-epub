@@ -1,0 +1,18 @@
+[goldmark]
+[goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = false
+
+[goldmark.parser]
+attribute = true
+autoHeadingID = false
+
+[goldmark.renderer]
+hardWraps = false
+unsafe = true
+xHTML = true

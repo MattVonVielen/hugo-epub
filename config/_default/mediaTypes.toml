@@ -1,0 +1,8 @@
+["application/xhtml+xml"]
+suffixes = ["xhtml"]
+
+["application/opf+xml"]
+suffixes = ["opf"]
+
+["application/x-dtbncx+xml"]
+suffixes = ["ncx"]
