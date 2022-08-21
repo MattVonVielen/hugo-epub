@@ -4,11 +4,7 @@
       xml:lang="{{ .Lang }}">
   <head>
     <title>{{ .Site.Params.title }}: {{ .Title }}</title>
-{{- if .Params.Ebook }}
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-{{- else }}   
-    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
-{{- end }}
+    {{ partial "head.html" . }}
   </head>
 {{- if eq .Params.Ebook "toc" }}
   <body>
